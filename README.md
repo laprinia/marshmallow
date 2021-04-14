@@ -1,4 +1,4 @@
-## Marshmallow
+#### Marshmallow
 
 ![main character](/screenshots/start2.png "Marshmallow the Corgi")
 
@@ -11,7 +11,7 @@ Collaborative side-scroller, story driven 2D game. The game is based mostly on v
 
 
 
-* Movement:
+* **Movement**:
 
 ![game development](/screenshots/movement.gif "Marshmallow movement")
  
@@ -24,7 +24,7 @@ Collaborative side-scroller, story driven 2D game. The game is based mostly on v
 
 
 
-* Bezier Curves:
+* **Bezier Curves**:
 
 ![game development](/screenshots/bezier.png "Butterfly Bezier curves")
 
@@ -34,7 +34,7 @@ The path is traced using Bezier curves.
 
 
 
-* Parallax Effect:
+* **Parallax Effect**:
 
 ![game development](/screenshots/parallax.png "Parallax camera effect")
 
@@ -43,7 +43,7 @@ The path is traced using Bezier curves.
 
 
 
-* Interaction System:
+* **Interaction System**:
 
 ![game development](/screenshots/interaction.gif "Fixed Joint interaction")
 
@@ -53,7 +53,7 @@ Objects attach/detach to the character on pressing the "E" key.
 
 The character needs to push objects around to solve puzzles.
 
-* Save/Load System:
+* **Save/Load System**:
 
 Uses checkpoints to save automatically.
 

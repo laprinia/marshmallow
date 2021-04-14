@@ -1,4 +1,4 @@
-#### Marshmallow
+# Marshmallow
 
 ![main character](/screenshots/start2.png "Marshmallow the Corgi")
 

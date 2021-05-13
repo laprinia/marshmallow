@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d9e792b-1d24-4880-9b88-a6eade45ce3b" name="Default Changelist" comment="" />
+    <list default="true" id="2d9e792b-1d24-4880-9b88-a6eade45ce3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Marshmallow/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marshmallow/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Marshmallow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marshmallow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow Idle Animation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow Idle Animation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow Push Animation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow Push Animation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Marshmallow Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Marshmallow Animator Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterController2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterController2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/PlayerInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/PlayerInteraction.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterWalkingLane.cs" root0="FORCE_HIGHLIGHTING" />
@@ -25,16 +41,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Save/Checkpoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Load.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Save/SaveableCharacter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/PlayerInteraction.cs" />
         <option value="$PROJECT_DIR$/Assets/Addons/PathCreator/Examples/Scripts/Follower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ReadOnlyDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/UI/MenuButtons/Scripts/MenuButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/PlayerInteraction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterController2D.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1jxmrV05mjv7pB9V56bI3hiSZuT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -105,11 +122,24 @@
       <workItem from="1613233424981" duration="1242000" />
       <workItem from="1614798167837" duration="2593000" />
       <workItem from="1614850377981" duration="2225000" />
+      <workItem from="1618419756522" duration="616000" />
+      <workItem from="1620842730743" duration="4616000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

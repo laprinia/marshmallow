@@ -55,7 +55,7 @@ public class CharacterController2D : MonoBehaviour
     private float rightAlignSpeed = 1f;
     const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
     const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
-
+    
 
     // COMMENTED UNTIL FURTHER USE FOR A BETTER VISIBILITY IN THE INSPECTOR WINDOW
 
@@ -72,6 +72,7 @@ public class CharacterController2D : MonoBehaviour
     private void Awake()
     {
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        animator.SetBool("isFacingRight",true);
 
         // COMMENTED UNTIL FURTHER USE FOR A BETTER VISIBILITY IN THE INSPECTOR WINDOW
 
@@ -85,7 +86,16 @@ public class CharacterController2D : MonoBehaviour
     private void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        if (horizontalMove != 0)
+        {
+            animator.SetBool("isFacingRight",horizontalMove>0);
+        }
+       
+     
+        
         animator.SetFloat("horizontalMove", Mathf.Abs(horizontalMove));
+       // animator.SetFloat("horizontalMove", (horizontalMove));
+        
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
@@ -190,7 +200,7 @@ public class CharacterController2D : MonoBehaviour
                 Flip();
             }
             // Otherwise if the input is moving the player left and the player is facing right...
-            else if (move < 0 && m_FacingRight)
+            else if (move < 0 && m_FacingRight && !animator.GetBool("isInteracting"))
             {
                 // ... flip the player.
                 Flip();
@@ -227,6 +237,7 @@ public class CharacterController2D : MonoBehaviour
     {
         // Switch the way the player is labelled as facing.
         m_FacingRight = !m_FacingRight;
+        
 
         // Multiply the player's x local scale by -1.
         Vector3 theScale = transform.localScale;

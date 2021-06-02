@@ -5,6 +5,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+#pragma warning disable 0649, 0414
 
 public class MenuButton : MonoBehaviour
 {

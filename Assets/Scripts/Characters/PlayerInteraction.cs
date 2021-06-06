@@ -11,23 +11,26 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private float m_distanceToInteract;
     [SerializeField] private LayerMask m_interationLayerMask;
 
-    [Header("Climbing")] [Space(20)] 
-    [SerializeField] private float m_distanceToDescend;
-    [SerializeField] private float m_heightToClimb;
-    [SerializeField] private float m_distanceToClimb;
+    [Header("Climbing")] [Space(20)]
+    [SerializeField] private float m_distanceToObject;
     [SerializeField] private float m_climbingTime;
-    [SerializeField] private float m_beforeClimbOffsetX;
-    [SerializeField] private float m_beforeClimbOffsetY;
     [SerializeField] private float m_afterClimbOffsetX;
     [SerializeField] private float m_afterClimbOffsetY;
+
+    [Header("Descending")] [Space(20)]
+    [SerializeField] private float m_distanceToDescend;
+    [SerializeField] private float m_descendTime;
+    [SerializeField] private float m_afterDescendOffsetX;
+    [SerializeField] private float m_afterDescendOffsetY;
 
     [Header("Debug Variables")] [Space(20)] 
     [SerializeField] [ReadOnly] private bool m_canControlCharacter = true;
     [SerializeField] [ReadOnly] private bool m_hasClimbed;
+    [SerializeField] [ReadOnly] private bool m_canClimb = true;
+    [SerializeField] [ReadOnly] private bool m_canDescend = false;
     [SerializeField] [ReadOnly] private Animator m_animator;
     [SerializeField] [ReadOnly] private Rigidbody2D m_rigidBody;
     [SerializeField] [ReadOnly] private CharacterController2D m_controller;
-    [SerializeField] [ReadOnly] private float m_horizontalMove;
     [SerializeField] [ReadOnly] private KeyCode interactionKey = KeyCode.E;
     [SerializeField] [ReadOnly] private KeyCode jumpKey = KeyCode.Space;
 
@@ -42,14 +45,19 @@ public class PlayerInteraction : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.magenta;
-        Gizmos.DrawLine(transform.position,
-            new Vector2(transform.position.x, transform.position.y) +
-            Vector2.right * transform.localScale.x * m_distanceToInteract);
+
+        // Interaction-check Raycast
+        Gizmos.DrawLine(transform.position, new Vector2(transform.position.x, transform.position.y) + Vector2.right * transform.localScale.x * m_distanceToInteract);
+
+        // Climbing-check Raycast
+        Gizmos.DrawLine(new Vector2(transform.position.x, transform.position.y + 0.55f), new Vector2(transform.position.x, transform.position.y + 0.55f) + Vector2.right * transform.localScale.x * m_distanceToObject);
+
+        // Descending-check Raycast
+        Gizmos.DrawLine(new Vector2(transform.position.x, transform.position.y - 0.2f), new Vector2(transform.position.x, transform.position.y - 0.2f) + Vector2.right * transform.localScale.x * m_distanceToDescend);
     }
 
     private void Update()
     {
-        m_horizontalMove = m_controller.GetHorizontalMove();
         if (Input.GetKeyDown(interactionKey))
         {
             Physics2D.queriesStartInColliders = false;
@@ -83,48 +91,52 @@ public class PlayerInteraction : MonoBehaviour
             }
         }
 
+        // Climbable raycast check
         if (Input.GetKeyDown(jumpKey))
         {
             Physics2D.queriesStartInColliders = false;
-            // Climbable raycast check
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x,
-                m_distanceToClimb, m_interationLayerMask);
+            
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x, m_distanceToObject, m_interationLayerMask);
 
-            if (hit.collider != null && hit.collider.gameObject.CompareTag("Climbable"))
+            if (hit.collider != null && hit.collider.gameObject.CompareTag("Climbable") && m_canClimb)
             {
-                Debug.Log("Has found climbable");
+                Debug.Log("Climbing");
+
                 m_animator.SetBool("isClimbing", true);
                 m_canControlCharacter = false;
-                m_controller.SetVelocity(Vector2.zero);
                 m_hasClimbed = true;
-                StartCoroutine(WaitCoroutine(m_climbingTime, hit.collider.gameObject));
+                m_canClimb = false;
+                m_canDescend = false;
+                m_controller.SetVelocity(Vector2.zero);
+                
+                StartCoroutine(ClimbCoroutine(m_climbingTime));
             }
         }
 
         // Descending check
-        if (m_hasClimbed && m_canControlCharacter)
+        if (m_canControlCharacter)
         {
             Physics2D.queriesStartInColliders = false;
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x,
-                m_distanceToClimb, m_interationLayerMask);
+            RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y - 0.2f), Vector2.right * transform.localScale.x, m_distanceToDescend, m_interationLayerMask);
 
-            if (hit.collider != null && Vector2.Distance(hit.collider.transform.position, transform.position) <
-                m_distanceToDescend)
+            if (hit.collider != null)
             {
-                hit.collider.enabled = false;
-                var position = transform.position;
-                //Debug.Log(Vector2.Distance(hit.collider.transform.position, position));
-                position = new Vector3(position.x + 2, -3.2561f, 0);
-                transform.position = position;
+                Debug.Log("Descending");
+
+                m_animator.SetBool("isDescending", true);
+                m_canControlCharacter = false;
+                m_hasClimbed = false;
+                m_canClimb = false;
+                m_controller.SetVelocity(Vector2.zero);
+
+                StartCoroutine(DescendCoroutine(m_descendTime));
             }
         }
     }
 
-    IEnumerator WaitCoroutine(float secondsToWait, GameObject hitGO)
+    IEnumerator ClimbCoroutine(float secondsToWait)
     {
         m_rigidBody.constraints = RigidbodyConstraints2D.FreezePositionY;
-        gameObject.transform.position = new Vector3(gameObject.transform.position.x + m_beforeClimbOffsetY,
-            gameObject.transform.position.y + m_beforeClimbOffsetX, gameObject.transform.position.z);
         GetComponent<CircleCollider2D>().enabled = false;
         GetComponent<CapsuleCollider2D>().enabled = false;
         GetComponent<BoxCollider2D>().enabled = false;
@@ -144,13 +156,35 @@ public class PlayerInteraction : MonoBehaviour
         
         gameObject.transform.position = new Vector3(newPositionX, newPositionY, gameObject.transform.position.z);
 
-        //add restrictive colliders
-        BoxCollider2D[] childrenColliders = hitGO.GetComponentsInChildren<BoxCollider2D>();
-        foreach (var collider in childrenColliders)
-        {
-            collider.enabled = true;
-        }
+        m_canControlCharacter = true;
+        m_canClimb = true;
+        m_canDescend = true;
+    }
+
+    IEnumerator DescendCoroutine(float secondsToWait)
+    {
+        m_rigidBody.constraints = RigidbodyConstraints2D.FreezePositionY;
+        GetComponent<CircleCollider2D>().enabled = false;
+        GetComponent<CapsuleCollider2D>().enabled = false;
+        GetComponent<BoxCollider2D>().enabled = false;
+
+        yield return new WaitForSeconds(secondsToWait);
+
+        m_animator.SetBool("isDescending", false);
+
+        GetComponent<CircleCollider2D>().enabled = true;
+        GetComponent<CapsuleCollider2D>().enabled = true;
+        GetComponent<BoxCollider2D>().enabled = true;
+        m_rigidBody.constraints = RigidbodyConstraints2D.None;
+
+        float newPositionY = gameObject.transform.position.y + m_afterDescendOffsetY;
+        float newPositionX = gameObject.transform.position.x;
+        newPositionX += m_controller.m_isFacingRight ? m_afterDescendOffsetX : -m_afterDescendOffsetX;
+
+        gameObject.transform.position = new Vector3(newPositionX, newPositionY, gameObject.transform.position.z);
 
         m_canControlCharacter = true;
+        m_canDescend = true;
+        m_canClimb = true;
     }
 }

@@ -7,10 +7,8 @@ using UnityEngine.Events;
 
 public class Interactable : MonoBehaviour
 {
-    [Header("NPC Settings")][Space(5)]
-    [SerializeField] private NPCController controller;
     [SerializeField] private bool isInRange;
-    [SerializeField] private UnityEvent additionalEvents;
+    [SerializeField] private UnityEvent events;
     [SerializeField][ReadOnly] private KeyCode interactKey = KeyCode.E;
 
     void Update()
@@ -19,8 +17,7 @@ public class Interactable : MonoBehaviour
         {
             if(Input.GetKeyDown(interactKey))
             {
-                controller.TriggerLogic();
-                additionalEvents.Invoke();
+                events.Invoke();
             }
         }
     }

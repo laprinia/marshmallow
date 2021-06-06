@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 552416183230182733}
   - component: {fileID: 552416183230182734}
   m_Layer: 0
-  m_Name: Destination-2 (1)
+  m_Name: QuestGiver-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552416183230182735}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -54.9565, y: -1.5583757, z: -13.339846}
+  m_LocalPosition: {x: -57.78813, y: -2.0642073, z: 0}
   m_LocalScale: {x: 17.299889, y: 17.299889, z: 17.299889}
   m_Children: []
   m_Father: {fileID: 0}

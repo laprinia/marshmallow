@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 5328899391390854995}
   - component: {fileID: 5328899391390854997}
   - component: {fileID: 3386298249937322268}
+  - component: {fileID: 878432105386872182}
   - component: {fileID: 1945627204205979391}
   m_Layer: 11
   m_Name: Marshmallow
@@ -176,6 +177,7 @@ MonoBehaviour:
   m_isCrouching: 0
   m_wasCrouching: 0
   m_isClimbing: 0
+  m_isDescending: 0
   m_Rigidbody2D: {fileID: 0}
   m_animator: {fileID: 0}
   m_baseSpeed: 1
@@ -197,26 +199,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90c41522fa4fc7a4c8aef9e578670f82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_distanceToInteract: 1.5
+  m_distanceToInteract: 1.3
   m_interationLayerMask:
     serializedVersion: 2
     m_Bits: 16384
-  m_distanceToDescend: 0.6
-  m_heightToClimb: 0.5
-  m_distanceToClimb: 1.7
+  m_distanceToObject: 1
   m_climbingTime: 3.083
-  m_beforeClimbOffsetX: 0
-  m_beforeClimbOffsetY: 0
-  m_afterClimbOffsetX: 1.4
+  m_afterClimbOffsetX: 2
   m_afterClimbOffsetY: 0.64
+  m_distanceToDescend: 0.41
+  m_descendTime: 1.167
+  m_afterDescendOffsetX: 2
+  m_afterDescendOffsetY: -0.7
   m_canControlCharacter: 1
   m_hasClimbed: 0
+  m_canClimb: 1
+  m_canDescend: 0
   m_animator: {fileID: 0}
   m_rigidBody: {fileID: 0}
   m_controller: {fileID: 0}
-  m_horizontalMove: 0
   interactionKey: 101
   jumpKey: 32
+--- !u!114 &878432105386872182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5328899391390855016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e9c11ba03316d34dbcacd1c6081c5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blendFactor: 0.0005
+  facingRightScreenX: 0.374
+  facingLeftScreenX: 0.65
+  currentScreenX: 0.374
+  leftBorder: -81
+  oldLeftBorder: -81
+  currentDeadZoneWidth: 0
+  cinemachineCamera: {fileID: 0}
+  characterController: {fileID: 0}
+  cameraSettings: {fileID: 0}
 --- !u!114 &1945627204205979391
 MonoBehaviour:
   m_ObjectHideFlags: 0

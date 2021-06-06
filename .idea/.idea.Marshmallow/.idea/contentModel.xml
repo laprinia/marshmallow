@@ -97,6 +97,7 @@
             </e>
           </e>
         </e>
+        <e p="DialogueGiver.cs" t="Include" />
         <e p="Resources" t="Include">
           <e p="UI" t="Include">
             <e p="MenuButtons" t="Include">
@@ -109,8 +110,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Bin.cs" t="Include" />
           <e p="Characters" t="Include">
+            <e p="CameraManager.cs" t="Include" />
             <e p="CharacterController2D.cs" t="Include" />
             <e p="CharacterWalkingLane.cs" t="Include" />
             <e p="Interactable.cs" t="Include" />
@@ -135,14 +136,19 @@
             <e p="HelpAttribute.cs" t="Include" />
             <e p="ReadOnlyAttribute.cs" t="Include" />
           </e>
-          <e p="MainMenu.cs" t="Include" />
-          <e p="PauseMenu.cs" t="Include" />
           <e p="Save" t="Include">
+            <e p="Bin.cs" t="Include" />
             <e p="Checkpoint.cs" t="Include" />
             <e p="Load.cs" t="Include" />
             <e p="PlayerData.cs" t="Include" />
             <e p="SaveableCharacter.cs" t="Include" />
             <e p="SaveSystem.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="DialogueLine.cs" t="Include" />
+            <e p="DialogueManager.cs" t="Include" />
+            <e p="MainMenu.cs" t="Include" />
+            <e p="PauseMenu.cs" t="Include" />
           </e>
         </e>
         <e p="Systems" t="Include">

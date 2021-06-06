@@ -27,6 +27,7 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] [ReadOnly] private bool m_isCrouching = false;
     [SerializeField] [ReadOnly] private bool m_wasCrouching = false;
     [SerializeField] [ReadOnly] private bool m_isClimbing = false;
+    [SerializeField] [ReadOnly] private bool m_isDescending = false;
     [SerializeField] [ReadOnly] private Rigidbody2D m_Rigidbody2D;
     [SerializeField] [ReadOnly] private Animator    m_animator;
 
@@ -116,10 +117,11 @@ public class CharacterController2D : MonoBehaviour
             }
         }
 
-        if (!m_animator.GetBool("isClimbing"))
+        if (!m_animator.GetBool("isClimbing") && !m_animator.GetBool("isDescending"))
         {
             
             m_isClimbing = false;
+            m_isDescending = false;
 
             float t = Time.time;
             float pacing = m_a1 * Mathf.Sin(t * m_f1 + m_p1) + m_baseSpeed + Mathf.Sin(t * m_f2 + m_p2) * m_a2;
@@ -129,7 +131,15 @@ public class CharacterController2D : MonoBehaviour
         }
         else
         {
-            m_isClimbing = true;
+            if(m_animator.GetBool("isClimbing"))
+            {
+                m_isClimbing = true;
+            }
+
+            if (m_animator.GetBool("isDescending"))
+            {
+                m_isDescending = true;
+            }
         }
     }
 

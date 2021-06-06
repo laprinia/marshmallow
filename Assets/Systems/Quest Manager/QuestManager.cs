@@ -59,11 +59,6 @@ public class QuestManager : MonoBehaviour
                     quest.SetInRange(false);
                 }
 
-                //if (quest.GetIsInRange() && !quest.GetIsInProgress())
-                //{
-                //    quest.StartProgress();
-                //}
-
                 if (quest.GetIsInProgress())
                 {
                     var questPhase = quest.GetCurrentPhase();

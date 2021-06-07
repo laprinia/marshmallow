@@ -16,12 +16,16 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Image borderImage;
     [SerializeField] public DialogueLine[] m_dialogueLines;
     [SerializeField] private Sprite[] m_dialogueSprites;
-    [SerializeField] private Animator m_animator;
+    [SerializeField] private PlayerInteraction m_playerInteraction;
+    [SerializeField] private Animator m_borderAnimator;
+
+    [SerializeField]  private KeyCode startDialogueKey = KeyCode.F;
+    [SerializeField] [ReadOnly] private KeyCode advanceDialogueKey = KeyCode.Space;
+
     private bool m_startDialogue = true;
     private bool m_nextText = true;
     private int lastSpriteIndex = 0;
     private int m_index = 0;
-
 
     private void Update()
     {
@@ -33,29 +37,34 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
-        if ((Input.GetKeyDown(KeyCode.Space)))
+        if (Input.GetKeyDown(startDialogueKey) && m_startDialogue)
         {
-            if (m_startDialogue)
-            {
-                m_animator.SetTrigger("enter");
-                m_startDialogue = false;
-                StartCoroutine(WaitForText());
-            }
-            else if (m_nextText)
-            {
-                m_nextText = false;
-                NextSentence();
-            }
+            m_borderAnimator.SetTrigger("enter");
+            m_playerInteraction.m_controller.SetVelocity(Vector2.zero);
+            m_playerInteraction.m_canControlCharacter = false;
+            m_playerInteraction.m_animator.SetBool("isDialogActive", true);
+            m_startDialogue = false;
+            StartCoroutine(WaitForText());
         }
-        else if (isAutomatic)
+        else if (Input.GetKeyDown(advanceDialogueKey) && m_nextText)
+
+        {
+            m_nextText = false;
+            NextSentence();
+        }
+
+        if (isAutomatic)
         {
             if (m_startDialogue)
             {
-                m_animator.SetTrigger("enter");
+                m_borderAnimator.SetTrigger("enter");
+                m_playerInteraction.m_controller.SetVelocity(Vector2.zero);
+                m_playerInteraction.m_canControlCharacter = false;
+                m_playerInteraction.m_animator.SetBool("isDialogActive", true);
                 m_startDialogue = false;
                 StartCoroutine(WaitForText());
             }
-            else if (m_nextText && Input.GetKeyDown(KeyCode.Space))
+            else if (m_nextText && Input.GetKeyDown(advanceDialogueKey))
             {
                 m_nextText = false;
                 NextSentence();
@@ -77,11 +86,14 @@ public class DialogueManager : MonoBehaviour
         else
         {
             m_dialogueText.text = "";
-            m_animator.SetTrigger("spriteDissapear");
-            m_animator.SetTrigger("exit");
+            m_borderAnimator.SetTrigger("spriteDissapear");
+            m_borderAnimator.SetTrigger("exit");
             isAutomatic = false;
             m_index = 0;
             m_startDialogue = true;
+
+            m_playerInteraction.m_canControlCharacter = true;
+            m_playerInteraction.m_animator.SetBool("isDialogActive", false);
         }
     }
 
@@ -94,7 +106,7 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator WriteSentence()
     {
-        m_animator.SetTrigger("spriteAppear");
+        m_borderAnimator.SetTrigger("spriteAppear");
         foreach (var character in m_dialogueLines[m_index].sentence.ToCharArray())
         {
             m_dialogueText.text += character;

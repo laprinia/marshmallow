@@ -9,6 +9,7 @@ public class Follower : MonoBehaviour
 {
     [SerializeField] public Path[] paths;
     [SerializeField] public EndOfPathInstruction endOfPathInstruction;
+    [SerializeField] private float delayToDisappear = 5.0f;
 
     [Header("Debug Variables")] [Space(20)]
     [SerializeField] [ReadOnly] private int currentPath = 0;
@@ -96,13 +97,25 @@ public class Follower : MonoBehaviour
 
                 StartCoroutine(WaitCoroutine(paths[currentPath].delay));
             }
+            
+            if(currentPath == paths.Length - 1)
+            {
+                StartCoroutine(DelayedKillObject(2.0f));
+            }
         }
     }
+
     IEnumerator WaitCoroutine(float secondsToWait)
     {
         yield return new WaitForSeconds(secondsToWait);
         alreadyCollided = false;
         butterflyCollider.enabled = true;
+    }
+
+    IEnumerator DelayedKillObject(float secondsToWait)
+    {
+        yield return new WaitForSeconds(secondsToWait);
+        Destroy(gameObject);
     }
 }
 

@@ -97,7 +97,7 @@
             </e>
           </e>
         </e>
-        <e p="DialogueGiver.cs" t="Include" />
+        <e p="PlayInteractAnimation.cs" t="Include" />
         <e p="Resources" t="Include">
           <e p="UI" t="Include">
             <e p="MenuButtons" t="Include">
@@ -145,10 +145,18 @@
             <e p="SaveSystem.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
-            <e p="DialogueLine.cs" t="Include" />
-            <e p="DialogueManager.cs" t="Include" />
-            <e p="MainMenu.cs" t="Include" />
-            <e p="PauseMenu.cs" t="Include" />
+            <e p="Credits" t="Include">
+              <e p="CreditsTimer.cs" t="Include" />
+            </e>
+            <e p="Dialogue" t="Include">
+              <e p="DialogueGiver.cs" t="Include" />
+              <e p="DialogueLine.cs" t="Include" />
+              <e p="DialogueManager.cs" t="Include" />
+            </e>
+            <e p="Menu" t="Include">
+              <e p="MainMenu.cs" t="Include" />
+              <e p="PauseMenu.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Systems" t="Include">

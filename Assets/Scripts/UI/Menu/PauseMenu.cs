@@ -8,7 +8,8 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject saveMenuUI;
     public GameObject pauseMenuUI;
-    public GameObject dialogueCanvas;
+    public GameObject inventoryCanvas;
+   // public GameObject dialogueCanvas;
    
 
     void Start()
@@ -40,7 +41,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
-        dialogueCanvas.SetActive(true);
+       // dialogueCanvas.SetActive(true);
+        inventoryCanvas.SetActive(false);
     }
 
     void Pause()
@@ -51,7 +53,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
         Cursor.lockState = CursorLockMode.None;
-        dialogueCanvas.SetActive(false);
+        //dialogueCanvas.SetActive(false);
+        inventoryCanvas.SetActive(false);
     }
 
     public void QuitGame()

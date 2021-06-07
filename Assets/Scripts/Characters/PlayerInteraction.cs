@@ -24,13 +24,13 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private float m_afterDescendOffsetY;
 
     [Header("Debug Variables")] [Space(20)] 
-    [SerializeField] [ReadOnly] private bool m_canControlCharacter = true;
+    [SerializeField] [ReadOnly] public bool m_canControlCharacter = true;
     [SerializeField] [ReadOnly] private bool m_hasClimbed;
     [SerializeField] [ReadOnly] private bool m_canClimb = true;
     [SerializeField] [ReadOnly] private bool m_canDescend = false;
-    [SerializeField] [ReadOnly] private Animator m_animator;
+    [SerializeField] [ReadOnly] public Animator m_animator;
     [SerializeField] [ReadOnly] private Rigidbody2D m_rigidBody;
-    [SerializeField] [ReadOnly] private CharacterController2D m_controller;
+    [SerializeField] [ReadOnly] public CharacterController2D m_controller;
     [SerializeField] [ReadOnly] private KeyCode interactionKey = KeyCode.E;
     [SerializeField] [ReadOnly] private KeyCode jumpKey = KeyCode.Space;
 

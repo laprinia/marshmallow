@@ -147,7 +147,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.67, y: 0.46}
+  m_Offset: {x: 0.46, y: 0.61}
   serializedVersion: 2
   m_Radius: 0.45086765
 --- !u!114 &5328899391390854997
@@ -178,6 +178,7 @@ MonoBehaviour:
   m_wasCrouching: 0
   m_isClimbing: 0
   m_isDescending: 0
+  m_dialogActive: 0
   m_Rigidbody2D: {fileID: 0}
   m_animator: {fileID: 0}
   m_baseSpeed: 1
@@ -203,10 +204,10 @@ MonoBehaviour:
   m_interationLayerMask:
     serializedVersion: 2
     m_Bits: 16384
-  m_distanceToObject: 1
-  m_climbingTime: 3.083
-  m_afterClimbOffsetX: 2
-  m_afterClimbOffsetY: 0.64
+  m_distanceToObject: 0.9
+  m_climbingTime: 3.25
+  m_afterClimbOffsetX: 1.8
+  m_afterClimbOffsetY: 0.7
   m_distanceToDescend: 0.41
   m_descendTime: 1.167
   m_afterDescendOffsetX: 2
@@ -294,7 +295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5328899392161055829}
   - component: {fileID: 5328899392161055830}
-  - component: {fileID: 4047548118526558192}
+  - component: {fileID: 8290279069019211886}
   m_Layer: 11
   m_Name: Sprite
   m_TagString: Untagged
@@ -366,7 +367,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4047548118526558192
+--- !u!95 &8290279069019211886
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0

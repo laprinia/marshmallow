@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c712b8ae7f623e4ebf79480234a3bdc, type: 3}
+  m_Name: Quest-1-Pepper
+  m_EditorClassIdentifier: 
+  m_inProgress: 1
+  m_isCompleted: 0
+  m_isInRange: 1
+  m_questGiverPosition: {x: 49, y: 0}
+  m_currentPhase: 0
+  questPhases:
+  - m_inProgress: 1
+    m_isCompleted: 0
+    m_description: Help Pepper find his family
+    m_destinationPosition: {x: 55, y: 0}

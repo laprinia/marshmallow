@@ -29,6 +29,8 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] [ReadOnly] private bool m_canClimb = true;
     [SerializeField] [ReadOnly] private bool m_canDescend = false;
     [SerializeField] [ReadOnly] public Animator m_animator;
+    [SerializeField] [ReadOnly] public RuntimeAnimatorController m_pepperAnimatorController;
+    [SerializeField] [ReadOnly] public RuntimeAnimatorController m_originalAnimatorController;
     [SerializeField] [ReadOnly] private Rigidbody2D m_rigidBody;
     [SerializeField] [ReadOnly] public CharacterController2D m_controller;
     [SerializeField] [ReadOnly] private KeyCode interactionKey = KeyCode.E;
@@ -79,7 +81,6 @@ public class PlayerInteraction : MonoBehaviour
                     objFixedJoint.enabled = true;
                     objFixedJoint.connectedBody = GetComponent<Rigidbody2D>();
                     m_animator.SetBool("isOnRightSide", transform.position.x > obj.transform.position.x);
-                    //Debug.Log(transform.position.x + " " + obj.transform.position.x);
                     m_animator.SetBool("isInteracting", true);
                 }
                 else if (objRigidBody.bodyType == RigidbodyType2D.Dynamic)
@@ -100,8 +101,6 @@ public class PlayerInteraction : MonoBehaviour
 
             if (hit.collider != null && hit.collider.gameObject.CompareTag("Climbable") && m_canClimb)
             {
-                Debug.Log("Climbing");
-
                 m_animator.SetBool("isClimbing", true);
                 m_canControlCharacter = false;
                 m_hasClimbed = true;
@@ -121,8 +120,6 @@ public class PlayerInteraction : MonoBehaviour
 
             if (hit.collider != null)
             {
-                Debug.Log("Descending");
-
                 m_animator.SetBool("isDescending", true);
                 m_canControlCharacter = false;
                 m_hasClimbed = false;
@@ -160,7 +157,6 @@ public class PlayerInteraction : MonoBehaviour
         m_canClimb = true;
         m_canDescend = true;
     }
-
     IEnumerator DescendCoroutine(float secondsToWait)
     {
         m_rigidBody.constraints = RigidbodyConstraints2D.FreezePositionY;
@@ -186,5 +182,29 @@ public class PlayerInteraction : MonoBehaviour
         m_canControlCharacter = true;
         m_canDescend = true;
         m_canClimb = true;
+    }
+    public void ChangeToPepperAnimator()
+    {
+        Animator oldAnimator = m_animator;
+        m_animator.runtimeAnimatorController = m_pepperAnimatorController;
+        m_animator.SetBool("isClimbing", oldAnimator.GetBool("isClimbing"));
+        m_animator.SetBool("isInteracting", oldAnimator.GetBool("isInteracting"));
+        m_animator.SetBool("isFacingRight", oldAnimator.GetBool("isFacingRight"));
+        m_animator.SetBool("isOnRightSide", oldAnimator.GetBool("isOnRightSide"));
+        m_animator.SetBool("isDescending", oldAnimator.GetBool("isDescending"));
+        m_animator.SetBool("isDialogActive", true);
+        m_controller.SetAnimator(m_animator);
+    }
+    public void ChangeToOriginalAnimator()
+    {
+        Animator oldAnimator = m_animator;
+        m_animator.runtimeAnimatorController = m_originalAnimatorController;
+        m_animator.SetBool("isClimbing", oldAnimator.GetBool("isClimbing"));
+        m_animator.SetBool("isInteracting", oldAnimator.GetBool("isInteracting"));
+        m_animator.SetBool("isFacingRight", oldAnimator.GetBool("isFacingRight"));
+        m_animator.SetBool("isOnRightSide", oldAnimator.GetBool("isOnRightSide"));
+        m_animator.SetBool("isDescending", oldAnimator.GetBool("isDescending"));
+        m_animator.SetBool("isDialogActive", true);
+        m_controller.SetAnimator(m_animator);
     }
 }

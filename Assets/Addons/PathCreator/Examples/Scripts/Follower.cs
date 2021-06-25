@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using PathCreation;
 
 // Moves along a path at constant speed.
@@ -8,6 +9,11 @@ using PathCreation;
 public class Follower : MonoBehaviour
 {
     [SerializeField] public Path[] paths;
+
+    [Space(10)]
+    [SerializeField] public GameObject[] idleOverrides;
+
+    [Space(20)]
     [SerializeField] public EndOfPathInstruction endOfPathInstruction;
     [SerializeField] private float delayToDisappear = 5.0f;
 
@@ -16,7 +22,9 @@ public class Follower : MonoBehaviour
     [SerializeField] [ReadOnly] private float currentSpeed = 0.0f;
     [SerializeField] [ReadOnly] private float distanceTravelled;
     [SerializeField] [ReadOnly] private bool alreadyCollided = false;
+    [SerializeField] [ReadOnly] private bool isIdle = false;
     [SerializeField] [ReadOnly] private CharacterController2D characterToGuide;
+    [SerializeField] [ReadOnly] private Animator butterflyAnimator;
     [SerializeField] [ReadOnly] private CircleCollider2D butterflyCollider;
 
     private bool facingLeft = true;
@@ -24,6 +32,7 @@ public class Follower : MonoBehaviour
 
     void Start()
     {
+        butterflyAnimator = gameObject.GetComponent<Animator>();
         butterflyCollider = gameObject.GetComponent<CircleCollider2D>();
         currentSpeed = paths[currentPath].minSpeed;
 
@@ -36,6 +45,34 @@ public class Follower : MonoBehaviour
 
     void Update()
     {
+        if (idleOverrides != null)
+        {
+            foreach (var idleOverride in idleOverrides)
+            {
+                if (transform.position.x < idleOverride.transform.position.x + 0.5f
+                    && transform.position.x > idleOverride.transform.position.x - 0.5f
+                    && transform.position.y < idleOverride.transform.position.y + 0.5f
+                    && transform.position.y > idleOverride.transform.position.y - 0.5f)
+                {
+                    isIdle = true;
+                    butterflyAnimator.SetBool("isIdle", true);
+                    break;
+                }
+                else
+                {
+                    isIdle = false;
+                    butterflyAnimator.SetBool("isIdle", false);
+                }
+            }
+        }
+
+        if(paths[currentPath].tutorialKeyGO != null)
+        {
+            Vector3 newTutorialKeyPosition = paths[currentPath].tutorialKeyToFollow.position;
+            newTutorialKeyPosition.y += 2.0f;
+            paths[currentPath].tutorialKeyGO.transform.position = newTutorialKeyPosition;
+        }
+
         if (distanceTravelled < paths[currentPath].distanceWithMaxSpeed)
         {
             if (currentSpeed < paths[currentPath].maxSpeed)
@@ -50,7 +87,7 @@ public class Follower : MonoBehaviour
                 currentSpeed -= paths[currentPath].acceleration;
             }
         }
-        
+
         distanceTravelled += currentSpeed * Time.deltaTime;
         float transformX = transform.position.x;
         float pathX = paths[currentPath].pathCreator.path.GetPointAtDistance(distanceTravelled, endOfPathInstruction).x;
@@ -88,6 +125,12 @@ public class Follower : MonoBehaviour
         {
             if (currentPath < paths.Length - 1)
             {
+                if(paths[currentPath].tutorialKeyGO != null)
+                {
+                    paths[currentPath].tutorialKeyGO.GetComponentInChildren<Animator>().SetBool("dis", true);
+                    StartCoroutine(DelayedDestroyObject(1.0f, paths[currentPath].tutorialKeyGO));
+                }
+
                 alreadyCollided = true;
                 distanceTravelled = 0.0f;
                 currentSpeed = paths[currentPath].minSpeed;
@@ -95,12 +138,17 @@ public class Follower : MonoBehaviour
                 butterflyCollider.offset = paths[currentPath].colliderOffset;
                 butterflyCollider.enabled = false;
 
+                if(paths[currentPath].tutorialKeyGO != null)
+                {
+                    StartCoroutine(DelayedShowSprite(1.0f));
+                }
+
                 StartCoroutine(WaitCoroutine(paths[currentPath].delay));
             }
             
             if(currentPath == paths.Length - 1)
             {
-                StartCoroutine(DelayedKillObject(2.0f));
+                StartCoroutine(DelayedDestroyButterfly(delayToDisappear));
             }
         }
     }
@@ -112,10 +160,23 @@ public class Follower : MonoBehaviour
         butterflyCollider.enabled = true;
     }
 
-    IEnumerator DelayedKillObject(float secondsToWait)
+    IEnumerator DelayedShowSprite(float secondsToWait)
+    {
+        yield return new WaitForSeconds(secondsToWait);
+        paths[currentPath].tutorialKeyGO.GetComponentInChildren<SpriteRenderer>().enabled = true;
+        paths[currentPath].tutorialKeyGO.GetComponentInChildren<Animator>().SetBool("ap", true);
+    }
+
+    IEnumerator DelayedDestroyButterfly(float secondsToWait)
     {
         yield return new WaitForSeconds(secondsToWait);
         Destroy(gameObject);
+    }
+
+    IEnumerator DelayedDestroyObject(float secondsToWait, GameObject objectToDestroy)
+    {
+        yield return new WaitForSeconds(secondsToWait);
+        Destroy(objectToDestroy);
     }
 }
 
@@ -129,4 +190,6 @@ public class Path
     [SerializeField] public float minSpeed = 2.5f;
     [SerializeField] public float acceleration = 0.005f;
     [SerializeField] public float distanceWithMaxSpeed = 0.0f;
+    [SerializeField] public GameObject tutorialKeyGO;
+    [SerializeField] public Transform tutorialKeyToFollow;
 }

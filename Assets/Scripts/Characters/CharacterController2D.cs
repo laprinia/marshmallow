@@ -30,7 +30,7 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] [ReadOnly] private bool m_isDescending = false;
     [SerializeField] [ReadOnly] private bool m_dialogActive = false;
     [SerializeField] [ReadOnly] private Rigidbody2D m_Rigidbody2D;
-    [SerializeField] [ReadOnly] private Animator    m_animator;
+    [SerializeField] [ReadOnly] private Animator m_animator;
 
 
     [Header("Debug Variables - Walking Function")] [Space(20)]
@@ -52,30 +52,11 @@ public class CharacterController2D : MonoBehaviour
     private const float k_CeilingRadius = 0.2f; // Radius of the overlap circle to determine if the player can stand up
     
 
-    // COMMENTED UNTIL FURTHER USE FOR A BETTER VISIBILITY IN THE INSPECTOR WINDOW
-
-    /*[Header("Events")]
-    [Space(20)]
-
-    public UnityEvent OnLandEvent;
-
-    [System.Serializable]
-    public class BoolEvent : UnityEvent<bool> { }
-    public BoolEvent OnCrouchEvent;*/
-
     private void Awake()
     {
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
         m_animator = GetComponentInChildren<Animator>();
         m_animator.SetBool("isFacingRight",true);
-
-        // COMMENTED UNTIL FURTHER USE FOR A BETTER VISIBILITY IN THE INSPECTOR WINDOW
-
-        /*if (OnLandEvent == null)
-            OnLandEvent = new UnityEvent();
-
-        if (OnCrouchEvent == null)
-            OnCrouchEvent = new BoolEvent();*/
     }
 
     private void Update()
@@ -111,10 +92,6 @@ public class CharacterController2D : MonoBehaviour
             if (colliders[i].gameObject != gameObject)
             {
                 m_isGrounded = true;
-
-                // COMMENTED UNTIL FURTHER USE FOR A BETTER VISIBILITY IN THE INSPECTOR WINDOW
-                /*if (!wasGrounded)
-                    OnLandEvent.Invoke();*/
             }
         }
 
@@ -171,9 +148,6 @@ public class CharacterController2D : MonoBehaviour
                 if (!m_wasCrouching)
                 {
                     m_wasCrouching = true;
-
-                    // COMMENTED UNTIL FURTHER USE FOR A BETTER VISIBILITY IN THE INSPECTOR WINDOW
-                    //OnCrouchEvent.Invoke(true);
                 }
 
                 // Reduce the speed by the crouchSpeed multiplier
@@ -192,9 +166,6 @@ public class CharacterController2D : MonoBehaviour
                 if (m_wasCrouching)
                 {
                     m_wasCrouching = false;
-
-                    // COMMENTED UNTIL FURTHER USE FOR A BETTER VISIBILITY IN THE INSPECTOR WINDOW
-                    //OnCrouchEvent.Invoke(false);
                 }
             }
 
@@ -242,6 +213,10 @@ public class CharacterController2D : MonoBehaviour
     {
         return m_Rigidbody2D.transform.position;
     }
+    public Animator GetAnimator()
+    {
+        return m_animator;
+    }
 
     // Setters
     public void SetHorizontalMove(float horizontalMove)
@@ -251,5 +226,9 @@ public class CharacterController2D : MonoBehaviour
     public void SetVelocity(Vector2 velocity)
     {
         m_Rigidbody2D.velocity = velocity;
+    }
+    public void SetAnimator(Animator animator)
+    {
+        m_animator = animator;
     }
 }

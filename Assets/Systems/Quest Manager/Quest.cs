@@ -11,7 +11,8 @@ public class Quest : ScriptableObject
     [SerializeField] private bool m_isCompleted = false;
     [SerializeField] private bool m_isInRange = false;
 
-    [SerializeField] private GameObject m_questGiver;
+    //[SerializeField] private GameObject m_questGiver;
+    [SerializeField] private Vector2 m_questGiverPosition = Vector2.zero;
 
     [SerializeField] private int m_currentPhase = 0;
     [SerializeField] private QuestPhase[] questPhases;
@@ -39,9 +40,13 @@ public class Quest : ScriptableObject
     }
     public Vector3 GetQuestGiverPosition()
     {
-        return m_questGiver.transform.position;
+        //return m_questGiver ? m_questGiver.transform.position : Vector3.zero;
+        return m_questGiverPosition;
     }
-
+    public Vector2 GetQuestGiverPostion2()
+    {
+        return m_questGiverPosition;
+    }
 
     // Setters
     public void StartProgress()
@@ -96,7 +101,8 @@ public class QuestPhase
     [SerializeField] private bool m_inProgress = false;
     [SerializeField] private bool m_isCompleted = false;
     [SerializeField] private string m_description;
-    [SerializeField] private GameObject m_destination;
+    //[SerializeField] private GameObject m_destination;
+    [SerializeField] private Vector2 m_destinationPosition = Vector2.zero;
 
     // Getters
     public bool GetIsInProgress()
@@ -109,7 +115,8 @@ public class QuestPhase
     }
     public Vector3 GetDestinationPosition()
     {
-        return m_destination.transform.position;
+        //return m_destination ? m_destination.transform.position : Vector3.zero;
+        return m_destinationPosition;
     }
     public string GetDescription()
     {

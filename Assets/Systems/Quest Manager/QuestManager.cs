@@ -27,8 +27,10 @@ public class QuestManager : MonoBehaviour
                 var questGiverPosition = quest.GetQuestGiverPosition();
 
                 // Check if player is in quest range
-                if ((characterController.GetPosition().x > questGiverPosition.x - questGiverRange)
-                    && (characterController.GetPosition().x < questGiverPosition.x + questGiverRange))
+                if ((characterController.GetPosition().x > questGiverPosition.x - questGiverRange
+                    && characterController.GetPosition().x < questGiverPosition.x + questGiverRange)
+                    || (characterController.GetPosition().x > quest.GetQuestGiverPostion2().x - questGiverRange
+                    && characterController.GetPosition().x < quest.GetQuestGiverPostion2().x + questGiverRange))
                 {
                     quest.SetInRange(true);
                     if(!quest.GetIsInProgress())

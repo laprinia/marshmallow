@@ -1,0 +1,302 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8188424565318464512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8188424565318464514}
+  - component: {fileID: 8188424565318464515}
+  - component: {fileID: 8188424565318464524}
+  - component: {fileID: 8188424565318464525}
+  - component: {fileID: 8188424565318464527}
+  - component: {fileID: 3485090439125728119}
+  m_Layer: 0
+  m_Name: Butterfly-Tutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8188424565318464514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8188424565318464512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -75.4, y: -0.22, z: 0}
+  m_LocalScale: {x: 0.24363033, y: 0.24363033, z: 0.24363033}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8188424565318464515
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8188424565318464512}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 337284603
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 631e5dab1ce44f04d90327fa0758a445, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8.5, y: 7.62}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &8188424565318464524
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8188424565318464512}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8b6e4cf25d883d94fa90dfb2006c720c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8188424565318464525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8188424565318464512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c79e19cecdbe024096817970f7e2ea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paths:
+  - pathCreator: {fileID: 0}
+    delay: 0
+    colliderOffset: {x: 0, y: 0}
+    maxSpeed: 4
+    minSpeed: 2.5
+    acceleration: 0.005
+    distanceWithMaxSpeed: 5
+    tutorialKeyGO: {fileID: 0}
+    tutorialKeyToFollow: {fileID: 0}
+  - pathCreator: {fileID: 0}
+    delay: 6
+    colliderOffset: {x: -8, y: -13}
+    maxSpeed: 5
+    minSpeed: 2.5
+    acceleration: 0.005
+    distanceWithMaxSpeed: 16
+    tutorialKeyGO: {fileID: 0}
+    tutorialKeyToFollow: {fileID: 0}
+  - pathCreator: {fileID: 0}
+    delay: 5
+    colliderOffset: {x: -7, y: -10}
+    maxSpeed: 5
+    minSpeed: 2.5
+    acceleration: 0.005
+    distanceWithMaxSpeed: 10
+    tutorialKeyGO: {fileID: 0}
+    tutorialKeyToFollow: {fileID: 0}
+  - pathCreator: {fileID: 0}
+    delay: 8
+    colliderOffset: {x: -6, y: 0}
+    maxSpeed: 5
+    minSpeed: 2.5
+    acceleration: 0.005
+    distanceWithMaxSpeed: 20
+    tutorialKeyGO: {fileID: 0}
+    tutorialKeyToFollow: {fileID: 0}
+  - pathCreator: {fileID: 0}
+    delay: 7
+    colliderOffset: {x: -12, y: 0}
+    maxSpeed: 5
+    minSpeed: 2.5
+    acceleration: 0.005
+    distanceWithMaxSpeed: 20
+    tutorialKeyGO: {fileID: 0}
+    tutorialKeyToFollow: {fileID: 0}
+  - pathCreator: {fileID: 0}
+    delay: 7
+    colliderOffset: {x: 0, y: 0}
+    maxSpeed: 5
+    minSpeed: 2.5
+    acceleration: 0.005
+    distanceWithMaxSpeed: 20
+    tutorialKeyGO: {fileID: 0}
+    tutorialKeyToFollow: {fileID: 0}
+  endOfPathInstruction: 2
+  delayToDisappear: 10
+  currentPath: 0
+  currentSpeed: 0
+  distanceTravelled: 0
+  alreadyCollided: 0
+  characterToGuide: {fileID: 0}
+  butterflyCollider: {fileID: 0}
+--- !u!58 &8188424565318464527
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8188424565318464512}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.10566568, y: 0.42261133}
+  serializedVersion: 2
+  m_Radius: 4.083371
+--- !u!82 &3485090439125728119
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8188424565318464512}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 079037e3bfc7b4e44bbc223d182dcdec, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.02
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 92
+  DopplerLevel: 0.72
+  MinDistance: 1
+  MaxDistance: 63.05
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.015860429
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.87241656
+      value: 0.66102356
+      inSlope: -1.4136952
+      outSlope: -1.4136952
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9494629
+      value: 0.011749268
+      inSlope: -3.4834602
+      outSlope: -3.4834602
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.064858526
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

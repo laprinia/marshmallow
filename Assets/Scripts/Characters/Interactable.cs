@@ -9,7 +9,10 @@ public class Interactable : MonoBehaviour
 {
     [SerializeField] private bool isInRange;
     [SerializeField] private UnityEvent events;
-    [SerializeField][ReadOnly] private KeyCode interactKey = KeyCode.E;
+    [SerializeField] private UnityEvent autoStartEvents;
+    [SerializeField] private KeyCode interactKey = KeyCode.E;
+
+    [SerializeField][ReadOnly] private bool autoEventsDone = false;
 
     void Update()
     {
@@ -18,6 +21,12 @@ public class Interactable : MonoBehaviour
             if(Input.GetKeyDown(interactKey))
             {
                 events.Invoke();
+            }
+
+            if (!autoEventsDone)
+            {
+                autoStartEvents.Invoke();
+                autoEventsDone = true;
             }
         }
     }

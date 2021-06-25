@@ -19,7 +19,7 @@ public class CameraManager : MonoBehaviour
     [SerializeField] [ReadOnly] private float currentDeadZoneWidth;
 
     [Header("Debug Variables")] [Space(10)]
-    [SerializeField] private CinemachineVirtualCamera cinemachineCamera;
+    [SerializeField] [ReadOnly] private CinemachineVirtualCamera cinemachineCamera;
     [SerializeField] [ReadOnly] private CharacterController2D characterController;
     [SerializeField] [ReadOnly] private CinemachineFramingTransposer cameraSettings;
 

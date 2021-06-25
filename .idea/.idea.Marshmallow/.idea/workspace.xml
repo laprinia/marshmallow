@@ -1,303 +1,996 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e23cec63-c789-4e65-a0c3-9d9558393cc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Marshmallow/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marshmallow/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Marshmallow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marshmallow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/PathCreator/Examples/Scripts/Follower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/PathCreator/Examples/Scripts/Follower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Butterfly/Butterfly Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Butterfly/Butterfly Animator Controller.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Climbing2.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Climbing2.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/11.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/12.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/13.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/14.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/15.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/17.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/18.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/19.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/20.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/21.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/22.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/23.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/24.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/25.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/26.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/27.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/28.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/29.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/30.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/31.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/32.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/33.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/34.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/35.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/36.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/37.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/38.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/8.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Climbing/9.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/11.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/12.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/14.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/15.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/8.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Descend/9.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 1/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 1/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 1/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 1/2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 1/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 1/3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 2/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 2/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 2/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 2/2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 2/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Idle 2/3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/3r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/3r.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/8 3r .png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull In Place/8 3r .png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/3r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/3r.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/8 3r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Pull/8 3r.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place 2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place 2/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place 2/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place 2/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place 2/2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place 2/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place 2/3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place 2/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place 2/4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place/2r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place/2r.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place/3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place/4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place/5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push In Place/6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push/2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push/3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push/4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push/5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Push/6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/11.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/8.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Frames/Walking/9.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Climbing.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Climbing.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Climbing2.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Climbing2.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Climbing3.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Climbing3.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Descend-Pepper.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Descend-Pepper.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Idle2.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Idle2.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Pull-InPlace.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Pull-InPlace.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Pull.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Pull.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Push.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Push.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Push2.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Push2.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Walk.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Animation Clips/Marshmallow-Walk.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Marshmallow Animator Controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Marshmallow/Marshmallow Animator Controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Environment/basket.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Environment/basket.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Environment/box basic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Environment/box basic.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Environment/box mare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Environment/box mare.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Butterfly Paths.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Butterfly Paths/Path 1-ButterflyComing.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Butterfly Paths/Path 1-ButterflyComing.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Butterfly Paths/Path 2-MoveRight.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Butterfly Paths/Path 2-MoveRight.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Butterfly Paths/Path 3-MoveLeft.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Butterfly Paths/Path 3-MoveLeft.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Butterfly Paths/Path 4-GoToJump.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Butterfly Paths/Path 4-GoToJump.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Characters/Marshmallow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Characters/Marshmallow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Props/Movable-Basket.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Props/Movable-Basket.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Props/Obstacle-Medium-Box.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Props/Obstacle-Medium-Box.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Props/Obstacle-Small-Box.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Props/Obstacle-Small-Box.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Props/TutorialEndGate.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Props/TutorialEndGate.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/MenuButtons/Animations/press.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/MenuButtons/Animations/press.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/MenuButtons/Animations/selected.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/MenuButtons/Animations/selected.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/CharacterController2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/CharacterController2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/PlayerInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/PlayerInteraction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Dialogue/DialogueGiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Dialogue/DialogueGiver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Dialogue/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Dialogue/DialogueManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Menu/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Menu/PauseMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Systems/Sound.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Systems/Sound/Main Game Sound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Systems/Sound/Main Game Sound.wav.meta" beforeDir="false" />
+    <list default="true" id="3b67b617-e871-490e-8f84-f7043177f17d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.collabignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.idea.Marshmallow/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.idea.Marshmallow/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.idea.Marshmallow/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.idea.Marshmallow/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.idea.Marshmallow/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.idea.Marshmallow/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.idea.Marshmallow/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.idea.Marshmallow/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator/DEMO.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator/DEMO/CPC_DEMO_UpDown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator/DEMO/CPC_DEMO_UpDown.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator/DEMO/CPC_Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator/DEMO/CPC_Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator/DEMO/Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator/DEMO/Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator/Scripts/CPC_CameraPath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator/Scripts/CPC_CameraPath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator/Scripts/Editor/CPC_CameraPathInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/CameraPathCreator/Scripts/Editor/CPC_CameraPathInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Editor/Helper.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Editor/Helper/MouseUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Editor/Helper/MouseUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Editor/Helper/PathHandle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Editor/Helper/PathHandle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Editor/Helper/ScreenSpacePolyLine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Editor/Helper/ScreenSpacePolyLine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Editor/PathCreatorEditor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Editor/PathCreatorEditor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Editor/PathEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Editor/PathEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/NewBehaviourScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/NewBehaviourScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/BezierPath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/BezierPath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/EndOfPathInstruction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/EndOfPathInstruction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/GlobalDisplaySettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/GlobalDisplaySettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/MinMax3D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/MinMax3D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/PathCreator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/PathCreator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/PathCreatorData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/PathCreatorData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/PathSpace.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/PathSpace.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/VertexPath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Objects/VertexPath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/PathCreator.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/PathCreator.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Utility.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Utility/CubicBezierUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Utility/CubicBezierUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Utility/MathUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Utility/MathUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Utility/VertexPathUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Runtime/Utility/VertexPathUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Settings/GlobalDisplaySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Core/Settings/GlobalDisplaySettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Documentation/Documentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Documentation/Documentation.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Brown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Brown.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Dark Grey.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Dark Grey.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Road Texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Road Texture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Road Underside.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Road Underside.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Road.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Materials/Road.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Prefabs/Cube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Prefabs/Cube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Prefabs/Follower.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Prefabs/Follower.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Prefabs/Path.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Prefabs/Path.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Prefabs/Sphere.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Prefabs/Sphere.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scenes/Follow Path.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scenes/Follow Path.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scenes/Generate Path.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scenes/Generate Path.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scenes/Object Placement.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scenes/Object Placement.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scenes/Path as Prefab.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scenes/Path as Prefab.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scenes/Road.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scenes/Road.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/Editor/PathSceneToolEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/Editor/PathSceneToolEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/Follower.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/Follower.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/GeneratePathExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/GeneratePathExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/PathFollower.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/PathFollower.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/PathPlacer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/PathPlacer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/PathSceneTool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/PathSceneTool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/PathSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/PathSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/RoadMeshCreator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/PathCreator/Examples/Scripts/RoadMeshCreator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Style Sheets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_Bitmap.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF SSD.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_SDF.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_Sprite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMPro.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Addons/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Butterfly.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Butterfly/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Butterfly/Animations/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Butterfly/Animations/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Butterfly/Animations/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Butterfly/Animations/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Butterfly/Animations/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Butterfly/Animations/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Butterfly/Animations/Butterfly Move.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Butterfly/Animations/Butterfly Move.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Butterfly/Butterfly Animator Controller.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Butterfly/Butterfly Animator Controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/E Key Appear.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/E Key Appear.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/E Key Disappear.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/E Key Disappear.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/E Key Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/E Key Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/F Key Appear.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/F Key Appear.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/F Key Dissapear.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/F Key Dissapear.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/F Key Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/F Key Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/F.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/F.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/Key Animator.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Interaction/Key Animator.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Climb-Pepper.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Climb-Pepper.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Descend-Pepper.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Descend-Pepper.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/17.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/18.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/19.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/20.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/21.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/22.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/23.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/24.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/25.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/26.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/27.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/28.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/29.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/30.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/31.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/32.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/33.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/34.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/35.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/36.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/37.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/38.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/39.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Climb/9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Descend/9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle2/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle2/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle2/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle2/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle2/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Idle2/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Pull/8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Push.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Push/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Push/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Push/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Push/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Push/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Push/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Push/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Push/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Frames/Walk/9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Idle-Pepper.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Idle-Pepper.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Idle2-Pepper.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Idle2-Pepper.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Pull-Pepper.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Pull-Pepper.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Push-Pepper.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Push-Pepper.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Walk-Pepper.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Clips/Walk-Pepper.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Marshmallow-Pepper.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow-Pepper/Marshmallow-Pepper.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Climb.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Climb.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Descend.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Descend.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/17.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/18.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/19.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/20.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/21.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/22.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/23.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/24.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/25.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/26.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/27.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/28.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/29.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/30.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/31.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/32.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/33.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/34.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/35.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/36.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/37.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/38.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/39.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Climb/9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Descend/9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 1/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 1/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 1/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 1/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 1/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 1/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 2/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 2/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 2/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 2/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 2/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Idle 2/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/3r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/3r.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/8 3r .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Pull/8 3r .png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Push.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Push/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Push/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Push/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Push/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Push/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Push/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Push/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Push/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Frames/Walk/9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Idle2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Idle2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Pull.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Pull.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Push.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Push.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Walk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Clips/Walk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Marshmallow.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Marshmallow/Marshmallow.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Border.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Border.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Entry.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Entry.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Exit.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Exit.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Invisible.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Invisible.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Sprite Appear.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Sprite Appear.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Sprite Dissapear.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Animation/Menu/Sprite Dissapear.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/PlayInteractAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/PlayInteractAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Characters/Campanelle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Characters/Campanelle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Characters/Marshmallow_Concept_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Characters/Marshmallow_Concept_6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Characters/Marshmallow_Concept_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Characters/Marshmallow_Concept_8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Characters/bg_corg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Characters/bg_corg.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Dialogue.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Dialogue/bg_peach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Dialogue/bg_peach.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Dialogue/corgi_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Dialogue/corgi_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Dialogue/dialog- border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Dialogue/dialog- border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Dialogue/hamster_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Dialogue/hamster_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Background.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Background/bg_test1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Background/bg_test1.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Background/bgtest_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Background/bgtest_2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Background/pres_env.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Background/pres_env.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Background/puzzlev1 test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Background/puzzlev1 test.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Background/tutorial env w nori.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Background/tutorial env w nori.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Background/tutorial env.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Background/tutorial env.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Clouds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Clouds/nor 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Clouds/nor 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Clouds/nor 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Clouds/nor 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Clouds/nor2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Clouds/nor2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Clouds/nor3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Clouds/nor3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Clouds/nor4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Clouds/nor4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Foreground Props.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Foreground Props/poarta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Foreground Props/poarta.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Foreground Props/tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Foreground Props/tree.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Menu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Menu/wp meniu.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Menu/wp meniu.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Props.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Props/Box-Big-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Props/Box-Big-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Props/Box-Big-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Props/Box-Big-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Props/Box-Small-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Props/Box-Small-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Props/Box-Small-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Props/Box-Small-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Props/Box-Small-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Props/Box-Small-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Props/Box-Small-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Environment/Props/Box-Small-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Menu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Menu/menu-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Images/Menu/menu-background.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Materials/Physics Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Materials/Physics Materials/Slippery.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Materials/Physics Materials/Slippery.physicsMaterial2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/BETA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/BETA/Destination-1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/BETA/Destination-1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/BETA/Destination-2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/BETA/Destination-2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/BETA/QuestGiver-1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/BETA/QuestGiver-1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Butterfly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Butterfly.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Paths.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Paths/Path 1-ButterflyComing.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Paths/Path 1-ButterflyComing.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Paths/Path 2-MoveRight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Paths/Path 2-MoveRight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Paths/Path 3-MoveLeft.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Paths/Path 3-MoveLeft.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Paths/Path 4-Climbing.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Paths/Path 4-Climbing.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Paths/Path 5-Interactable.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Paths/Path 5-Interactable.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Paths/Path 6-Leaving.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Butterfly/Paths/Path 6-Leaving.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Characters/Campanelle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Characters/Campanelle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Characters/Dumpling.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Characters/Dumpling.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Characters/Marshmallow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Characters/Marshmallow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Environment/Gate.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Environment/Gate.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Environment/Tree.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Environment/Tree.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Inventory.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Inventory/Chewable Toy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Inventory/Chewable Toy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Inventory/Inventory Menu 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Inventory/Inventory Menu 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Props.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Props/Box-Big-1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Props/Box-Big-1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Props/Box-Big-2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Props/Box-Big-2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Props/Box-Small-1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Props/Box-Small-1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Props/Box-Small-2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Props/Box-Small-2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Props/Box-Small-3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Props/Box-Small-3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Props/Box-Small-4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/Props/Box-Small-4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/UI/Menu.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Prefabs/UI/Menu.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/Main Game Sound.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/Main Game Sound.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/bark_2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/bark_2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/bark_steps_1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/bark_steps_1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/butterfly.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/butterfly.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/car_r_to_L.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/car_r_to_L.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/dog_bark_sneez.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/dog_bark_sneez.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/env_cicada.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/env_cicada.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/env_forest_birds.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/env_forest_birds.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/env_wind_birds.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/env_wind_birds.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/piu_piu.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/Background/piu_piu.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/FX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/FX/Menu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/FX/Menu/click_conversation_end.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/FX/Menu/click_conversation_end.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/FX/Menu/click_conversation_progress.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/Sounds/FX/Menu/click_conversation_progress.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Assets/Montserrat-Medium SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Assets/Montserrat-Medium SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Assets/Montserrat-Regular SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Assets/Montserrat-Regular SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Barkentina 1.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Barkentina 1.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Montserrat-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Montserrat-Bold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Montserrat-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Montserrat-Light.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Montserrat-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Montserrat-Medium.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Montserrat-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Montserrat-MediumItalic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Montserrat-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Fonts/Montserrat-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/BG Reference.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/BG Reference.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/Flourish Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/Flourish Right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/Flourish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/Flourish.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/Logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/Marshmallow Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/Marshmallow Logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/Selection Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/Selection Box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/Selection Pixels.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Images/Selection Pixels.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Animations/MenuButton.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Animations/MenuButton.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Animations/deselected.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Animations/deselected.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Animations/press.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Animations/press.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Animations/selected.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Animations/selected.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/MenuButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/MenuButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Scripts/AnimatorFunctions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Scripts/AnimatorFunctions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Scripts/MenuButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Scripts/MenuButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Scripts/MenuButtonController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/MenuButtons/Scripts/MenuButtonController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Pop-ups.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Pop-ups/A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Pop-ups/A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Pop-ups/D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Pop-ups/D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Pop-ups/E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Pop-ups/E.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Pop-ups/F.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Pop-ups/F.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Pop-ups/space.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Resources/UI/Pop-ups/space.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scenes/MainGame.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scenes/MainGame.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scenes/MainMenu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scenes/MainMenu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scenes/Pre-Credits.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scenes/Pre-Credits.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/CameraManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/CameraManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/CharacterController2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/CharacterController2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/CharacterWalkingLane.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/CharacterWalkingLane.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/Interactable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/Interactable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/NPC.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/NPC/ControllerA.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/NPC/ControllerA.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/NPC/ControllerB.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/NPC/ControllerB.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/NPC/NPCController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/NPC/NPCController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/PlayerInteraction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Characters/PlayerInteraction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Editor/ReadOnlyDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Editor/ReadOnlyDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Environment/Parallax.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Environment/Parallax/ParallaxBackground.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Environment/Parallax/ParallaxBackground.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Environment/Parallax/ParallaxCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Environment/Parallax/ParallaxCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Environment/Parallax/ParallaxLayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Environment/Parallax/ParallaxLayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Inspector.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Inspector/HelpAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Inspector/HelpAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Inspector/ReadOnlyAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Inspector/ReadOnlyAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Save.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Save/Bin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Save/Bin.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Save/Checkpoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Save/Checkpoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Save/Load.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Save/Load.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Save/PlayerData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Save/PlayerData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Save/SaveSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Save/SaveSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Save/SaveableCharacter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/Save/SaveableCharacter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Credits.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Credits/CreditsTimer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Credits/CreditsTimer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Dialogue.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Dialogue/DialogueGiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Dialogue/DialogueGiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Dialogue/DialogueLine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Dialogue/DialogueLine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Dialogue/DialogueManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Dialogue/DialogueManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Menu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Menu/MainMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Menu/MainMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Menu/PauseMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Scripts/UI/Menu/PauseMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Images/chewabletoy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Images/chewabletoy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Inventory.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Inventory/Marshmallow Inventory.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Inventory/Marshmallow Inventory.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Inventory/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Inventory/Scripts/InventoryObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Items.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Items/Chewable Toy.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Items/Chewable Toy.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Items/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Items/Scripts/DefaultObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Items/Scripts/DefaultObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Items/Scripts/ItemObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scriptable Objects/Items/Scripts/ItemObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scripts/DisplayInventory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scripts/DisplayInventory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scripts/InventoryManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scripts/InventoryManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scripts/Item.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scripts/Item.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scripts/ShowUIElements.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Inventory/Scripts/ShowUIElements.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Quest Manager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Quest Manager/Quest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Quest Manager/Quest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Quest Manager/QuestManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Quest Manager/QuestManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Quest Manager/Quests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Quest Manager/Quests/Quest-1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Quest Manager/Quests/Quest-1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Settings/Rendering.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Settings/Rendering/2D Renderer Data.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Settings/Rendering/2D Renderer Data.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Settings/Rendering/UniversalRenderPipelineAsset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Settings/Rendering/UniversalRenderPipelineAsset.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Settings/Rendering/UniversalRenderPipelineAsset_Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assets/Systems/Settings/Rendering/UniversalRenderPipelineAsset_Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Packages/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Packages/packages-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/PackageManagerSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/PresetManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/URPProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/VFXManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/XRSettings.asset" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,33 +998,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayInteractAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/CameraManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/DialogueManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PauseMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogueLine.cs" />
-        <option value="$PROJECT_DIR$/Assets/DialogueGiver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogueManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Dialogue/DialogueGiver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/CharacterController2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/PlayerInteraction.cs" />
-        <option value="$PROJECT_DIR$/Assets/SoundManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Dialogue/DialogueManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Menu/PauseMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayInteractAnimation.cs" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1tOm4wTcNvUjrg0sXtrz92fVFRY" />
+  <component name="ProjectId" id="1uMHTF2ZiroOwL91Tu0afImtxBP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -341,13 +1010,14 @@
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Marshmallow Build\Marshmallow.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../MM WO DIALOGUE/Marshmallow.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\Lavinia\Desktop\Marshmallow Build" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Lavinia\Desktop\MM WO DIALOGUE" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
@@ -356,8 +1026,9 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -365,8 +1036,9 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -374,38 +1046,18 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e23cec63-c789-4e65-a0c3-9d9558393cc1" name="Default Changelist" comment="" />
-      <created>1622648323662</created>
+      <changelist id="3b67b617-e871-490e-8f84-f7043177f17d" name="Default Changelist" comment="" />
+      <created>1624468546448</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622648323662</updated>
-      <workItem from="1622648329184" duration="882000" />
-      <workItem from="1622970020965" duration="683000" />
-      <workItem from="1622976269916" duration="29019000" />
+      <updated>1624468546448</updated>
+      <workItem from="1624468553931" duration="6041000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="439" y="129" width="657" height="566" key="find.popup" timestamp="1623015798317">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="439" y="129" width="657" height="566" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1623015798317" />
   </component>
 </project>

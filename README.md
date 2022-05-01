@@ -45,12 +45,15 @@ The path is traced using Bezier curves.
 
 * **Interaction System**:
 
+
+https://user-images.githubusercontent.com/51471463/166145164-4d58dbaf-d07a-4bfa-8fe6-02f6ab141c44.mp4
+
+
 Achieved using a Fixed Joint component.
 
 Objects attach/detach to the character on pressing the "E" key.
 
 The character needs to push objects around to solve puzzles.
-https://user-images.githubusercontent.com/51471463/166144922-41a3d46e-20b2-4021-8ecd-df9d8a815617.mp4
 
 * **Save/Load System**:
 
@@ -87,9 +90,9 @@ Up to three players can play along and choose any of the three dogs. The multipl
 
 It acts as a state manager, and needs a reference to the offline/online Scene and the Prefab of the player.
 
-
 * **Network Identity**
-![network-identity](https://user-images.githubusercontent.com/51471463/166145041-99a9f296-588a-455a-b88d-c2a0b69365c9.png)
+
+![network-identity](https://user-images.githubusercontent.com/51471463/166145189-df18af0c-c565-45ac-ba7a-a6b1af6280bd.png)
 
 The Network Animator assures that the animations are synced. Can animate locally or on server.
 The Network Transform syncs the Transform component at a given time.

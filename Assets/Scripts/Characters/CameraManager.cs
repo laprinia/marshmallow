@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
@@ -22,8 +23,7 @@ public class CameraManager : MonoBehaviour
     [SerializeField] [ReadOnly] private CinemachineVirtualCamera cinemachineCamera;
     [SerializeField] [ReadOnly] private CharacterController2D characterController;
     [SerializeField] [ReadOnly] private CinemachineFramingTransposer cameraSettings;
-
-
+  
     void Start()
     {
         cameraSettings = cinemachineCamera.GetCinemachineComponent<CinemachineFramingTransposer>();

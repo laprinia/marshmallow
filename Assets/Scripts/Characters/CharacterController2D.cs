@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using Cinemachine;
+using Mirror;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -7,6 +8,7 @@ using UnityEngine.Events;
 
 public class CharacterController2D : MonoBehaviour
 {
+
     [Header("Parameters - Walking")]
     [SerializeField] private float runSpeed = 40f;
     [SerializeField] [Range(0, 1)] private float m_CrouchSpeed = .36f; // Amount of maxSpeed applied to crouching movement. 1 = 100%
@@ -30,7 +32,7 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] [ReadOnly] private bool m_isDescending = false;
     [SerializeField] [ReadOnly] private bool m_dialogActive = false;
     [SerializeField] [ReadOnly] private Rigidbody2D m_Rigidbody2D;
-    [SerializeField] [ReadOnly] private Animator m_animator;
+    [SerializeField]  private Animator m_animator;
 
 
     [Header("Debug Variables - Walking Function")] [Space(20)]
@@ -54,6 +56,7 @@ public class CharacterController2D : MonoBehaviour
 
     private void Awake()
     {
+        // if(!isLocalPlayer) return;
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
         m_animator = GetComponentInChildren<Animator>();
         m_animator.SetBool("isFacingRight",true);
@@ -61,6 +64,7 @@ public class CharacterController2D : MonoBehaviour
 
     private void Update()
     {
+        // if(!isLocalPlayer) return;
         m_horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         m_animator.SetFloat("horizontalMove", Mathf.Abs(m_horizontalMove));
 
@@ -81,6 +85,7 @@ public class CharacterController2D : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // if(!isLocalPlayer) return;
         bool wasGrounded = m_isGrounded;
         m_isGrounded = false;
 
@@ -129,6 +134,7 @@ public class CharacterController2D : MonoBehaviour
 
     public void Move(float move, bool crouch)
     {
+        // if(!isLocalPlayer) return;
         // If crouching, check to see if the character can stand up
         if (!crouch)
         {
@@ -191,6 +197,7 @@ public class CharacterController2D : MonoBehaviour
 
     private void Flip()
     {
+        // if(!isLocalPlayer) return;
         // Switch the way the player is labelled as facing.
         m_isFacingRight = !m_isFacingRight;
         

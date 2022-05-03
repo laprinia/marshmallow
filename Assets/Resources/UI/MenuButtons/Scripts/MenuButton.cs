@@ -40,23 +40,35 @@ public class MenuButton : MonoBehaviour
     public void ButtonEvent(int index)
     {
         if (index == 0)
-            StartCoroutine(LoadAsyncScene());
+            StartCoroutine(LoadAsyncMainScene());
         else if (index == 1)
         {
             isContinue = true;
-            StartCoroutine(LoadAsyncScene());
+            StartCoroutine(LoadAsyncMainScene());
         }
-        else
+        else if (index == 2)
         {
-            //EditorApplication.isPlaying = false;
+            StartCoroutine(LoadAsyncMultiScene());
         }
+        
     }
     
     
     
-    IEnumerator LoadAsyncScene()
+    IEnumerator LoadAsyncMainScene()
     {
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("MainGame");
+        
+
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+    }
+
+    IEnumerator LoadAsyncMultiScene()
+    {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("LobbyMenu");
         
 
         while (!asyncLoad.isDone)
